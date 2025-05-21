@@ -92,11 +92,20 @@ ROLE_TOOLS = {
         "Campaign Optimization": campaign_optimizer_ui
     },
     "sponsor": {
+        "Sponsorship Matcher": sponsor_match_ui,
+        "Contract Generator": contract_generator_ui,
+        "Campaign Optimization": campaign_optimizer_ui
+    },
     "member": {
+        "Demand Forecasting": demand_forecasting_ui,
         "Schedule Optimizer": schedule_optimizer_ui
+    },
     "board": {
+        "Demand Forecasting": demand_forecasting_ui,
         "Churn Prediction": churn_prediction_ui
+    },
     "foundation": {
+        "Campaign Optimization": campaign_optimizer_ui
     }
 }
 def run():
