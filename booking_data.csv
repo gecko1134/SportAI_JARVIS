@@ -1,0 +1,5 @@
+date,team,sport,hours_booked,weekday,peak_hours,revenue
+2024-01-01,Team A,soccer,2.0,1,1,200
+2024-01-02,Team B,basketball,3.0,2,0,300
+2024-01-03,Team C,volleyball,1.5,3,0,150
+2024-01-04,Team D,soccer,2.5,4,1,250
