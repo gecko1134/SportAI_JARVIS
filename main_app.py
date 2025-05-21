@@ -151,7 +151,6 @@ BASE_DIR = os.path.dirname(__file__)
 if BASE_DIR not in sys.path:
     sys.path.insert(0, BASE_DIR)
 
-import ChurnPredictor
 import optimize_campaign
 import member_selector
 import auto_contract_generator
