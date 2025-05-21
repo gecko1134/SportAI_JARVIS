@@ -270,6 +270,7 @@ import visual_calendar_layout
 import volunteer_hub
 import weekly_report_generator
 with open('users.json') as f:
+    users = json.load(f)
 TOOLS = {
     "Ai Event Forecast": ai_event_forecast,
     "Ai Matchmaker Tool": ai_matchmaker_tool,
