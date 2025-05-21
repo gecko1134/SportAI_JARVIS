@@ -3,10 +3,6 @@
     "password": "admin123",
     "role": "admin"
   },
-  "coach@example.com": {
-    "password": "coach123",
-    "role": "coach"
-  },
   "sponsor@example.com": {
     "password": "sponsor123",
     "role": "sponsor"
@@ -14,9 +10,5 @@
   "board@example.com": {
     "password": "board123",
     "role": "board"
-  },
-  "member@example.com": {
-    "password": "member123",
-    "role": "member"
   }
 }
