@@ -8,6 +8,8 @@ BASE_DIR = os.path.dirname(__file__)
 if BASE_DIR not in sys.path:
     sys.path.insert(0, BASE_DIR)
 
+from modules.ai.demand_forecasting import DemandForecaster
+
 with open(os.path.join(BASE_DIR, 'users.json')) as f:
     users = json.load(f)
 
@@ -151,8 +153,8 @@ BASE_DIR = os.path.dirname(__file__)
 if BASE_DIR not in sys.path:
     sys.path.insert(0, BASE_DIR)
 
-import member_selector
-import auto_contract_generator
+
+
 import header_loader
 import fundraising_launch_center
 import grant_renewal_manager
@@ -485,11 +487,6 @@ import streamlit as st
 import json
 
 from modules.ai.demand_forecasting import DemandForecaster
-from modules.scheduling.optimizer import optimize_schedule
-from modules.sponsorship.matcher import match_sponsors
-from modules.sponsorship.contract_generator import generate_contract
-from modules.ai.churn_prediction import ChurnPredictor
-from modules.marketing.campaign_optimizer import optimize_campaign
 
 with open(os.path.join(BASE_DIR, 'users.json')) as f:
     users = json.load(f)
