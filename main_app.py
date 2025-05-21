@@ -151,9 +151,6 @@ BASE_DIR = os.path.dirname(__file__)
 if BASE_DIR not in sys.path:
     sys.path.insert(0, BASE_DIR)
 
-import optimize_schedule
-import match_sponsors
-import generate_contract
 import ChurnPredictor
 import optimize_campaign
 import member_selector
