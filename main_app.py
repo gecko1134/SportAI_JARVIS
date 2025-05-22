@@ -110,7 +110,6 @@ TOOLS = {
     }
 }
 
-}
 def run():
     st.set_page_config(page_title='SportAI Suite', layout='wide')
     if 'user' not in st.session_state or not st.session_state.user:
