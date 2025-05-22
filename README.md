@@ -1,2 +1,2 @@
 # SportAI Suite
-Streamlit-ready deployment with AI modules.
+Final clean deployment ZIP for Streamlit Cloud.
