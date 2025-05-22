@@ -4,3 +4,4 @@ scikit-learn
 pulp
 joblib
 scipy
+matplotlib
